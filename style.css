@@ -62,10 +62,61 @@
 .offer {
     display: grid;
     padding-top: 65px;
-    grid-template-columns: 232px 232px 232px;
+    grid-template-columns: repeat(3, 232px);
     grid-template-rows: 168px 116px;
     gap: 20px;
+    grid-column: 1/4;
 }
+
+.offer_card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big_card {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h4 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.h4 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.big_card_h4 {
+    display: flex;
+    position: absolute;
+
+}
+.bottom_text {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer_img {
+    filter: brightness(50%);
+    
+    
+}
+.offer_img4 {
+    filter: brightness(50%);
+    
+}
+
 .features {
     
 }
