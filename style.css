@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left:calc(50% - 367px);
+    padding-right:calc(50% - 367px);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    align-items: center;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+    align-items: flex-end;
+    gap: 41px;
+}
+.right_menu {
+    display: flex;
+    gap: 25px;
+    padding-right: 34px;
+}
+.brandtext {
+    color: #222;
+    font-family: Lato;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.luxtext {
+    color: #222;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fashiontext {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.top_text_group {
+    display: flex;
+    gap: 16px;
+}
+.offer {
+    display: grid;
+    padding-top: 65px;
+    grid-template-columns: 232px 232px 232px;
+    grid-template-rows: 168px 116px;
+    gap: 20px;
+}
+.features {
+    
+}
+.features_text{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.items {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 3px;
+}
+.featured_text {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 74px;
+}
+.features {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 16px;
+    padding-bottom: 33px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    
+}
+.name {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+    margin-left: 18px;
+}
+.descript {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 13px;
+    margin-left: 18px;
+}
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 18px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}
+.button {
+    width: 212px;
+    height: 48px;
+    color: #FF6A6A;
+    border-color: #FF6A6A;
+}
+.butt {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
