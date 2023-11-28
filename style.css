@@ -119,14 +119,8 @@ h4 {
     
     
 }
-.offer_img4 {
-    filter: brightness(50%);
-    
-}
 
-.features {
-    
-}
+
 .features_text{
     padding-top: 110px;
     display: flex;
@@ -194,14 +188,46 @@ h4 {
     margin-bottom: 20px;
     margin-left: 18px;
 }
+.card2_img {
+    filter: brightness(50%);
+    position: relative;
+    display: flex;
+}
+
 .button {
     width: 212px;
     height: 48px;
     color: #FF6A6A;
-    border-color: #FF6A6A;
+    border: 1px solid #FF6A6A;
+    background: #FFF;
+    
 }
 .butt {
     display: flex;
     justify-content: center;
     padding-bottom: 70px;
+}
+.card2_button {
+position: absolute;
+width: 139px;
+height: 44px;
+border: 1px solid #fff;
+background-color: transparent;
+margin-left: 111px;
+margin-top: 188px;
+}
+.card2_button_text {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    justify-content: center;
+    
+}
+h5 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
