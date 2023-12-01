@@ -7,7 +7,7 @@
     padding-left:calc(50% - 570px);
     padding-right:calc(50% - 570px);
 }
-.menu {
+.header {
     display: flex;
     justify-content: space-between;
     background-color: #222;
@@ -199,13 +199,10 @@ h4 {
     justify-content: center;
     padding-bottom: 60px;
 }
-@media (width=1024px)  {
+@media (width<1025px)  {
     .center {
         padding-left:calc(50% - 367px);
         padding-right:calc(50% - 367px);
-    }
-    .menu {
-        
     }
     .top {
         padding-left: calc(50% - 383px);
@@ -240,4 +237,50 @@ h4 {
         gap: 16px;
         padding-bottom: 32px;
     }
+}
+@media (width<768px) {
+    .center {
+        padding-left:calc(50% - 172px);
+        padding-right:calc(50% - 172px);
+    }
+
+    .hidden {
+        display: none;
+    }
+    .logo {padding-left: 16px;}
+    .right_menu{padding-right: 16px;}
+    .top {justify-content: center;}
+    .top_text_group {
+        padding-left:calc(50% - 172px);
+        padding-right:calc(50% - 172px);
+        padding-top: 148px;
+        gap: 15px;
+    }
+    .brandtext {font-size: 38px;}
+    .luxtext {font-size: 20px;}
+    .fashiontext {font-size: 20px;}
+    .offer {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        padding-top: 213px;
+    }
+    .offer_img {
+        width: 343px;
+    }
+    .big_card_img{
+        width: 343px;
+        height: 111px;
+    }
+    .features_text{
+        margin-top: 64px;
+        gap: 3px;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .butt {
+        padding-bottom: 85px;
 }
