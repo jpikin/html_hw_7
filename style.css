@@ -231,4 +231,13 @@ h4 {
     .big_card_img{
         width: 735px;
     }
+    .features_text{
+        margin-top: 109px;
+        gap: 6px;
+    }
+    .features {
+        grid-template-columns: 360px 360px;
+        gap: 16px;
+        padding-bottom: 32px;
+    }
 }
