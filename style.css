@@ -4,8 +4,8 @@
 }
 
 .center {
-    padding-left:calc(50% - 367px);
-    padding-right:calc(50% - 367px);
+    padding-left:calc(50% - 570px);
+    padding-right:calc(50% - 570px);
 }
 .menu {
     display: flex;
@@ -16,20 +16,21 @@
 .top {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 63px;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    
 }
 .logo {
     display: flex;
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 32px;
     align-items: flex-end;
     gap: 41px;
 }
 .right_menu {
     display: flex;
     gap: 25px;
-    padding-right: 34px;
 }
 .brandtext {
     color: #222;
@@ -58,14 +59,15 @@
 .top_text_group {
     display: flex;
     gap: 16px;
+    padding-right: 0;
 }
 .offer {
     display: grid;
     padding-top: 65px;
-    grid-template-columns: repeat(3, 232px);
-    grid-template-rows: 168px 116px;
-    gap: 20px;
-    grid-column: 1/4;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+    
 }
 .offer > div:nth-child(4) {
     grid-row-start: 2;
@@ -119,14 +121,12 @@ h4 {
     
     
 }
-
-
 .features_text{
-    padding-top: 110px;
+    margin-top: 96px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    gap: 6px;
 }
 .items {
     color: #222;
@@ -144,19 +144,18 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 74px;
+    padding-bottom: 49px;
 }
 .features {
     display: grid;
-    grid-template-columns: 360px 360px;
-    gap: 16px;
-    padding-bottom: 33px;
+    grid-template-columns: 360px 360px 360px;
+    gap: 30px;
+    padding-bottom: 48px;
 }
 .card {
     display: flex;
     flex-direction: column;
 }
- 
 .name {
     color: #000;
     font-family: Lato;
@@ -164,7 +163,7 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 25px;
+    padding-top: 35px;
     margin-left: 18px;
 }
 .descript {
@@ -188,12 +187,6 @@ h4 {
     margin-bottom: 20px;
     margin-left: 18px;
 }
-.card2_img {
-    filter: brightness(50%);
-    position: relative;
-    display: flex;
-}
-
 .button {
     width: 212px;
     height: 48px;
@@ -205,29 +198,5 @@ h4 {
 .butt {
     display: flex;
     justify-content: center;
-    padding-bottom: 70px;
-}
-.card2_button {
-position: absolute;
-width: 139px;
-height: 44px;
-border: 1px solid #fff;
-background-color: transparent;
-margin-left: 111px;
-margin-top: 188px;
-}
-.card2_button_text {
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    justify-content: center;
-    
-}
-h5 {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    padding-bottom: 60px;
 }
