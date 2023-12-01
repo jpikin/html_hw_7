@@ -13,14 +13,7 @@
     background-color: #222;
     align-items: center;
 }
-.top {
-    display: flex;
-    align-items: center;
-    gap: 63px;
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
-    
-}
+
 .logo {
     display: flex;
     padding-top: 18px;
@@ -32,10 +25,22 @@
     display: flex;
     gap: 25px;
 }
+.top {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+.top_text_group {
+    display: flex;
+    gap: 16px;
+    padding-right: 0;
+}
 .brandtext {
     color: #222;
     font-family: Lato;
-    font-size: 44px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -43,7 +48,7 @@
 .luxtext {
     color: #222;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -51,15 +56,10 @@
 .fashiontext {
     color: #F16D7F;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-.top_text_group {
-    display: flex;
-    gap: 16px;
-    padding-right: 0;
 }
 .offer {
     display: grid;
@@ -67,7 +67,6 @@
     grid-template-columns: repeat(3, 360px);
     grid-template-rows: 260px 180px;
     gap: 30px;
-    
 }
 .offer > div:nth-child(4) {
     grid-row-start: 2;
@@ -199,4 +198,37 @@ h4 {
     display: flex;
     justify-content: center;
     padding-bottom: 60px;
+}
+@media (width=1024px)  {
+    .center {
+        padding-left:calc(50% - 367px);
+        padding-right:calc(50% - 367px);
+    }
+    .menu {
+        
+    }
+    .top {
+        padding-left: calc(50% - 383px);
+        padding-right: calc(50% - 383px);
+        gap: 39px;
+    }
+    .brandtext {font-size: 44px;}
+    .luxtext {font-size: 24px;}
+    .fashiontext {font-size: 24px;}
+    .main_foto {
+        width: 386px;
+    }
+    .offer {
+        display: grid;
+        padding-top: 65px;
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 168px 116px;
+        gap: 20px;
+    }
+    .offer_img{
+        width: 232px;
+    }
+    .big_card_img{
+        width: 735px;
+    }
 }
