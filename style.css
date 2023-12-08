@@ -260,19 +260,17 @@ h4 {
     padding-left: 228px;
     padding-top: 97px;
 }
-.subscribe_form {
-    display: flex;
-    padding-top: 150px;
-    padding-left: 223px;
-    padding-bottom: 162px;
-}
-.subscribe_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 557px;
+.intersect_text {
+    width: 360px;
     height: 99px;
-    padding-bottom: 37px;
+    color: #222224;
+    text-align:center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 126px;
 }
 .intersect_text_curve {
     color: #222224;
@@ -281,6 +279,19 @@ h4 {
     font-style: italic;
     font-weight: 400;
     line-height: normal;
+}
+.subscribe_form {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 223px;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 557px;
 }
 .subscribe_text__first {
     color: #222224;
@@ -299,15 +310,45 @@ h4 {
     font-weight: 400;
     line-height: 167.2%;
 }
-.intersect_text {
-    width: 360px;
-color: #222224;
-text-align: center;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.rectangle {
+    padding-top: 32px;
+    display: flex;
+}
+.rectangle_left {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
+.rectangle_text_mail {
+    position: absolute;
+    color: #222224;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.671;
+    margin-left: 22px;
+}
+.rectangle_right {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle_text_subscribe {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    
+
 
 }
 .footer {
