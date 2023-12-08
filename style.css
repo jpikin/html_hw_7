@@ -199,6 +199,117 @@ h4 {
     justify-content: center;
     padding-bottom: 60px;
 }
+.about {
+    background-color: #222224;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 103px;
+    margin-bottom: 104px;
+    gap: 19px;
+}
+.about_img {
+    height: 47px;
+}
+.about_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.about_text__first {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.about_text__second {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Lato;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 360px;
+}
+.subscribe {
+    display: flex;
+    position: relative;
+    padding-left:calc(50% - 800px);
+    padding-right:calc(50% - 800px);
+}
+.background {
+    opacity: 0.4;
+    position: absolute;
+    z-index: -1;
+}
+.intersect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 228px;
+    padding-top: 97px;
+}
+.subscribe_form {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 223px;
+    padding-bottom: 162px;
+}
+.subscribe_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intersect_text_curve {
+    color: #222224;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.subscribe_text__first {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+.subscribe_text__second {
+    color: #222224;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+.intersect_text {
+    width: 360px;
+color: #222224;
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.footer {
+
+}
 @media (width<1025px)  {
     .center {
         padding-left:calc(50% - 367px);
