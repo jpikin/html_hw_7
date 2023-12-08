@@ -347,9 +347,6 @@ h4 {
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    
-
-
 }
 .footer {
     display: flex;
@@ -370,9 +367,6 @@ h4 {
 .social {
     display: flex;
     gap: 7px;
-}
-.social_container {
-    
 }
 @media (width<1025px)  {
     .center {
@@ -412,6 +406,46 @@ h4 {
         gap: 16px;
         padding-bottom: 32px;
     }
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 64px;
+    }
+    .about_us {
+        margin-top: 48px;
+        margin-bottom: 0px;
+    }
+    .about_text__second {
+        margin-bottom: 0px;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: calc(50% - 367px);
+        padding-right: calc(50% - 367px);
+    }
+    .intersect {
+        padding-left: 0px;
+        padding-top: 64px;
+    }
+    .intersect_text {
+        padding-bottom: 48px;
+    }
+    .subscribe_form {
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 140px;
+    }
+    .background {
+        content: url(./img/Layer\ 41_tablet.png);
+    }
+  .social {
+    padding-right: 24px;
+  }
+  .copyright {
+    padding-left: 32px;
+  }
 }
 @media (width<768px) {
     .center {
