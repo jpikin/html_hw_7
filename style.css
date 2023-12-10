@@ -368,6 +368,23 @@ h4 {
     display: flex;
     gap: 7px;
 }
+.social_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+}
+.social_container:hover {
+    background-color: #F16D7F;
+    .social_img {
+        fill: #ffffff;
+    }
+}
+.features_img:hover {
+    filter: brightness(50%);
+}
 @media (width<1025px)  {
     .center {
         padding-left:calc(50% - 367px);
