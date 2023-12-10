@@ -192,7 +192,11 @@ h4 {
     color: #FF6A6A;
     border: 1px solid #FF6A6A;
     background: #FFF;
-    
+}
+.button:hover {
+    color: #FFF;
+    border: 1px solid #FFF;
+    background: #FF6A6A;
 }
 .butt {
     display: flex;
