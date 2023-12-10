@@ -23,7 +23,14 @@
 }
 .right_menu {
     display: flex;
+    align-items: center;
     gap: 25px;
+}
+.menu_img:hover {
+    transform: scale(1.2);
+    .menu_img_2 {
+        fill: #F16D7F;
+    }
 }
 .top {
     display: flex;
