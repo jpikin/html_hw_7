@@ -496,6 +496,9 @@ h4 {
     .about {
         gap: 0px;
     }
+    .subscribe_form {
+        padding-bottom: 60px;
+    }
     .background {
         content: url(./img/Layer\ 41_fone.png);
     }
