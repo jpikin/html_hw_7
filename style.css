@@ -290,13 +290,12 @@ h4 {
 .subscribe {
     display: flex;
     position: relative;
-    padding-left:calc(50% - 800px);
-    padding-right:calc(50% - 800px);
 }
 .background {
     opacity: 0.4;
     position: absolute;
     z-index: -1;
+    object-fit: cover;
 }
 .intersect {
     display: flex;
