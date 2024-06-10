@@ -301,10 +301,9 @@ h4 {
 }
 .background {
     opacity: 0.4;
-    position: absolute;
+    position:absolute;
     z-index: -1;
     object-fit:cover;
-    background-size: 100% 100%;
 }
 
 .intersect {
