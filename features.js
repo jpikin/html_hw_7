@@ -5,8 +5,9 @@ let id = 1;
 
 
 fromData.forEach(element => {
+    const itemID = id++;
     const card = document.createElement('article');
-    card.classList.add('card');
+    card.classList.add('card', `item_${itemID}`);
     features.appendChild(card);
     const cardImgContainer = document.createElement('div');
     card.appendChild(cardImgContainer);
@@ -17,7 +18,7 @@ fromData.forEach(element => {
     img.alt = 'foto';
     cardImgContainer.appendChild(img);
     const cloneBtn = cardButton.cloneNode(true);
-    cloneBtn.setAttribute('numb', `${id++}`)
+    cloneBtn.classList.add(`item_${itemID}`);
     cardImgContainer.appendChild(cloneBtn);
     
     const name = document.createElement('span');
