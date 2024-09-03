@@ -1,6 +1,7 @@
 const features = document.querySelector('.features');
 const fromData = JSON.parse(dataFeaturedItems);
 const cardButton = document.querySelector('.card_button');
+let id = 1;
 
 
 fromData.forEach(element => {
@@ -16,6 +17,7 @@ fromData.forEach(element => {
     img.alt = 'foto';
     cardImgContainer.appendChild(img);
     const cloneBtn = cardButton.cloneNode(true);
+    cloneBtn.setAttribute('numb', `${id++}`)
     cardImgContainer.appendChild(cloneBtn);
     
     const name = document.createElement('span');

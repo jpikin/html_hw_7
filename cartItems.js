@@ -1,5 +1,12 @@
 const cartItems = document.querySelector('.cart_items');
-const cartItemsArray = [];
+const cartItemsMainText = document.createElement('span');
+cartItemsMainText.classList.add('items');
+cartItemsMainText.textContent = 'Cart Items';
+cartItemsMainText.style.marginTop = '96px';
+cartItemsMainText.style.marginBottom = '64px';
+cartItems.appendChild(cartItemsMainText);
+
+const cartItemsArray = [1];
 
 cartItems.style.display = cartItemsArray.length ? 'flex' : 'none';
 cartItemsArray.addEventListener('pop', ()=> {
@@ -12,5 +19,3 @@ cartItemsArray.addEventListener('splice', ()=> {
     cartItems.style.display = cartItemsArray.length ? 'flex' : 'none';
 });
 
-const cartItemsMainText = document.createElement('span');
-cartItemsMainText.classList.add('cart_items_main_text');
